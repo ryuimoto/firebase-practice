@@ -33,6 +33,10 @@ class _MyAuthPageState extends State<MyAuthPage> {
   // 入力されたパスワード
   String newUserPassword = "";
   // 登録・ログインに関する情報を表示
+
+  String loginUserEmail = "";
+  // 入力されたパスワード（ログイン）
+  String loginUserPassword = "";
   String infoText = "";
 
   @override
